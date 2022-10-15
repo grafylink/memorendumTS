@@ -1,5 +1,5 @@
 // Dans les fonctions, de manière native en TS les paramètres doivent être typé pour éviter l'erreur.
-// Cette exigence peut $etre désactivée dans tsconfig en mettant sous la ligne type checkint la ligne strict : true en commentaire.
+// Cette exigence peut etre désactivée dans tsconfig en mettant sous la ligne type checkint la ligne strict : true en commentaire.
 // C'est toutefois déconseillé. 
 
 function multiply(nbr1:number, nbr2:number) {
@@ -33,6 +33,7 @@ baz = (a,b) => a+b;
 
 //  LES FONCTIONS CALLBACK
 
+//elle prend en paramètre une fonction
 function greetings(fn: (a:string) => void){
     fn("Hello world")
 } 
@@ -40,5 +41,5 @@ function greetings(fn: (a:string) => void){
 function printToConsole(msg:string){
     console.log(msg);
 }
-
+//on appelle la fonction greetings qui prend en paramètre la fonction printToConsole (ici un exemple de callback)
 greetings(printToConsole);

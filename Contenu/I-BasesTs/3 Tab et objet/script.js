@@ -9,7 +9,7 @@ let mixedArray = [1, 'txt', [1, 2, 3]];
 mixedArray.push([2, 3]);
 // tableau de nombre déclaration
 let nombre;
-// nombre.psuh(1) donne erreur car il s'agit d'une déclaration, il n'est pas instancié
+// nombre.push(1) donne erreur car il s'agit d'une déclaration, il n'est pas instancié
 nombre = [1, 2, 3];
 let nombre2 = [];
 // nombre.psuh(1) marchera dans ce cas vzr il nombe2 est déclaré et instancié

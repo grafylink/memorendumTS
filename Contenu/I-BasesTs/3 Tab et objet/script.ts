@@ -10,7 +10,7 @@ mixedArray.push([2, 3]);
 
 // tableau de nombre déclaration
 let nombre : number [];
-// nombre.psuh(1) donne erreur car il s'agit d'une déclaration, il n'est pas instancié
+// nombre.push(1) donne erreur car il s'agit d'une déclaration, il n'est pas instancié
 nombre = [1,2,3];
 
 let nombre2 : number[] = [];

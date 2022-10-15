@@ -1,6 +1,6 @@
 "use strict";
 // Dans les fonctions, de manière native en TS les paramètres doivent être typé pour éviter l'erreur.
-// Cette exigence peut $etre désactivée dans tsconfig en mettant sous la ligne type checkint la ligne strict : true en commentaire.
+// Cette exigence peut etre désactivée dans tsconfig en mettant sous la ligne type checkint la ligne strict : true en commentaire.
 // C'est toutefois déconseillé. 
 function multiply(nbr1, nbr2) {
     return nbr1 * nbr2;
@@ -23,10 +23,12 @@ baz = (a, b) => a + b;
 //si je rajouter un paramètre il sera refusé car la signature de function ne le permet pas :
 // baz = (a,b, c) => a+b+c induira une erreur
 //  LES FONCTIONS CALLBACK
+//elle prend en paramètre une fonction
 function greetings(fn) {
     fn("Hello world");
 }
 function printToConsole(msg) {
     console.log(msg);
 }
+//on appelle la fonction greetings qui prend en paramètre la fonction printToConsole (ici un exemple de callback)
 greetings(printToConsole);

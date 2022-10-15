@@ -10,7 +10,7 @@ anniversaire = {
     jour: "mercredi",
     access: true
 };
-//cas d'un tableau union de boolean et number, convention d'écriture
+//cas d'un tableau union de boolean et number, convention d'écriture avec des parenthèses
 let arr;
 arr = [true, false, 12];
 // Dans les fonctions 

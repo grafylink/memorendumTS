@@ -1,5 +1,7 @@
 # Notes TypeScript
 
+- installer TypeScript global: `npm i -g typescript` 
+
 ## Compiler fichier script.ts en script.js
 
 - cmd : `tsc script.ts` (bien vérifier dans le terminal d'être sur le fichier ts -- utiliser clic droit: open in terminal)
