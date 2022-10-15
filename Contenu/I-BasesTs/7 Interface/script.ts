@@ -7,7 +7,7 @@ interface Rocket {
     takeOff: (action:string) => void
 }
 
-//On peu faire une surcouche de la fonction
+//On peut faire une surcouche de la fonction
 interface Rocket {
     price: number;
     carburant: number
